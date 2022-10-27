@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Interactive pricing component</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="maincontainer">
+      <div class="secondcontainer">
+        <img src="myimages/ovalbackground.svg" class="ovalbackground" />
+        <div class="thirdcontainer">
+          <h1 class="simpletrafficpricingtext">
+            Simple, traffic-based pricing
+          </h1>
+          <article class="singup30daystrialtext">
+            Sign-up for our 30-day trial. No credit card required.
+          </article>
+        </div>
+        <div class="fourthcontainer">
+          <h2 class="pagviews10ktext">10K PAGEVIEWS</h2>
+          <h2 class="pagviewstext">100K PAGEVIEWS</h2>
+          <h2 class="pagviews1mtext">1M PAGEVIEWS</h2>
+          <input
+            type="range"
+            min="33"
+            max="100"
+            step="33"
+            id="slider"
+            class="sliderclass"
+            value="33"
+          />
+
+          <div class="number">$32.00</div>
+          <a id="montlytext" class="monthtext">/ Month</a>
+          <div class="montlybillingcontaier">
+            <a class="montlytext">Monthly Billing </a>
+            <label class="switch">
+              <input type="checkbox" />
+              <span id="monthlyToYearly" class="slider round"></span>
+            </label>
+            <a class="yearlytext">Yearly Billing</a>
+            <div class="percent" id="percenttext">-25%</div>
+          </div>
+          <div class="greyline"></div>
+          <div>
+            <img src="./myimages/tick.svg" class="tick1" />
+            <div class="unlimitedtext">Unlimited websites</div>
+            <img src="./myimages/tick.svg" class="tick2" />
+            <div class="dataownershiptext">100% data ownership</div>
+            <img src="./myimages/tick.svg" class="tick3" />
+            <div class="emailreportstext">Email reports</div>
+          </div>
+          <div class="startmytrialcontainer" id="startmycontainertext">
+            Start my trial
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script defer src="index.js"></script>
+  </body>
+</html>

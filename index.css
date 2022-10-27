@@ -1,0 +1,561 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  /* border: 0.1px solid red; */
+}
+
+.maincontainer {
+  position: relative;
+  height: 800px;
+  width: 375px;
+  margin: 0px auto;
+  border-radius: 0px;
+  background: #ffffff;
+}
+.secondcontainer {
+  position: absolute;
+  height: 400px;
+  width: 375px;
+  margin-left: 0px;
+  margin-top: 0px;
+  background: rgba(241, 245, 254, 1);
+  border-radius: 0px 0px 0px 191.5px;
+}
+
+.ovalbackground {
+  position: absolute;
+  margin-left: 115px;
+  margin-top: 57px;
+  z-index: 2;
+}
+
+.thirdcontainer {
+  height: 81px;
+  width: 326px;
+  margin-left: 24px;
+  margin-top: 89px;
+  border-radius: 0px;
+  z-index: 1;
+}
+
+.simpletrafficpricingtext {
+  height: 27px;
+  width: 312px;
+  margin-left: 7px;
+  margin-top: 0px;
+  font-family: "Manrope";
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(41, 51, 86, 1);
+}
+
+.singup30daystrialtext {
+  height: 46px;
+  width: 180px;
+  margin-left: 70px;
+  margin-top: 10px;
+  font-family: "Manrope";
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(132, 142, 173, 1);
+}
+
+.fourthcontainer {
+  height: 478px;
+  width: 327px;
+  margin-left: 24px;
+  margin-top: 70px;
+  border-radius: 0px;
+  background: rgba(255, 255, 255, 1);
+  box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.15);
+}
+
+.pagviewstext {
+  position: absolute;
+  height: 16px;
+  width: 150px;
+  margin-left: 101px;
+  margin-top: 34px;
+  font-family: "Manrope";
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 16px;
+  letter-spacing: 1.7142857313156128px;
+  text-align: center;
+  color: rgba(132, 142, 173, 1);
+}
+.pagviews10ktext {
+  position: absolute;
+  height: 16px;
+  width: 150px;
+  margin-left: 101px;
+  margin-top: 34px;
+  font-family: "Manrope";
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 16px;
+  letter-spacing: 1.7142857313156128px;
+  text-align: center;
+  color: rgba(132, 142, 173, 1);
+  display: none;
+}
+.pagviews1mtext {
+  position: absolute;
+  height: 16px;
+  width: 150px;
+  margin-left: 101px;
+  margin-top: 34px;
+  font-family: "Manrope";
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 16px;
+  letter-spacing: 1.7142857313156128px;
+  text-align: center;
+  color: rgba(132, 142, 173, 1);
+  display: none;
+}
+
+#slider {
+  position: absolute;
+  height: 8px;
+  width: 279px;
+  margin-left: 24px;
+  margin-top: 91px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+#slider {
+  -webkit-appearance: none;
+}
+
+#slider {
+  background-color: #a4f3eb;
+}
+
+#slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+
+  margin-top: 30px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#slider:hover {
+  box-shadow: 0px 10px 50px 0.5px #00ffe5d7;
+}
+#slider::-webkit-slider-thumb {
+  background-image: url("./myimages/vollumeSlider.svg");
+  height: 100px;
+  width: 100px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.number {
+  position: absolute;
+  height: 44px;
+  width: 105px;
+  margin-left: 78px;
+  margin-top: 139px;
+  font-family: "Manrope";
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 44px;
+  letter-spacing: -0.800000011920929px;
+  text-align: right;
+  color: #293356;
+}
+
+.monthtext {
+  position: absolute;
+  display: inline-block;
+  height: 19px;
+  width: 53px;
+  margin-left: 193px;
+  margin-top: 153px;
+  font-family: "Manrope";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #848ead;
+}
+
+.montlybillingcontaier {
+  position: absolute;
+  height: 22px;
+  width: 272px;
+  margin-left: 44px;
+  margin-top: 217px;
+  border-radius: 0px;
+}
+
+.montlytext {
+  display: inline-block;
+
+  height: 16px;
+  width: 85px;
+  margin-left: 0.5px;
+  margin-top: 2px;
+  font-family: "Manrope";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(132, 142, 173, 1);
+}
+
+.yearlytext {
+  display: inline-block;
+  height: 16px;
+  width: 72px;
+  margin-left: 5px;
+  margin-top: 0px;
+  font-family: "Manrope";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(132, 142, 173, 1);
+}
+
+.percent {
+  height: 19px;
+  width: 41px;
+  margin-left: 230px;
+  margin-top: -18px;
+  border-radius: 9.5px;
+  background: rgba(254, 237, 232, 1);
+}
+#percenttext {
+  height: 14px;
+  font-family: "Manrope";
+  font-size: 10px;
+  font-weight: 800;
+  line-height: 14px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(255, 141, 104, 1);
+}
+
+/* switch box round */
+
+.switch {
+  position: relative;
+  display: inline-block;
+  height: 22px;
+  width: 50px;
+  margin-left: 5px;
+  border-radius: 15px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.greyline {
+  position: absolute;
+  height: 1px;
+  width: 327px;
+  margin-left: 0px;
+  margin-top: 277px;
+  border-radius: 0px;
+  background: rgba(236, 240, 251, 1);
+}
+
+.unlimitedtext {
+  position: absolute;
+  height: 16px;
+  width: 120px;
+  margin-left: 125px;
+  margin-top: 302px;
+  font-family: "Manrope";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(132, 142, 173, 1);
+}
+
+.tick1 {
+  position: absolute;
+  height: 5.041746616363525px;
+  width: 6.949103355407715px;
+  margin-left: 95px;
+  margin-top: 308px;
+}
+
+.dataownershiptext {
+  position: absolute;
+  height: 16px;
+  width: 140px;
+  margin-left: 125px;
+  margin-top: 327px;
+  font-family: "Manrope";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(132, 142, 173, 1);
+}
+.tick2 {
+  position: absolute;
+  height: 5.041746616363525px;
+  width: 6.949103355407715px;
+  margin-left: 95px;
+  margin-top: 335px;
+}
+
+.emailreportstext {
+  position: absolute;
+  height: 16px;
+  width: 120px;
+  margin-left: 125px;
+  margin-top: 355px;
+  font-family: "Manrope";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(132, 142, 173, 1);
+}
+.tick3 {
+  position: absolute;
+  height: 5px;
+  width: 6px;
+  margin-left: 95px;
+  margin-top: 362px;
+}
+
+.startmytrialcontainer:hover {
+  background-color: #051038;
+  cursor: pointer;
+}
+
+.startmytrialcontainer {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 41px;
+  width: 170px;
+  margin-left: 77px;
+  margin-top: 405px;
+  border-radius: 20.5px;
+  background: rgba(41, 51, 86, 1);
+}
+
+#startmycontainertext {
+  font-family: "Manrope";
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: rgba(190, 205, 255, 1);
+}
+
+@media only screen and (min-width: 1520px) {
+  .maincontainer {
+    height: 600px;
+    width: 1440px;
+    left: -116px;
+    top: -48px;
+    border-radius: 0px;
+  }
+  .secondcontainer {
+    height: 449px;
+    width: 1595px;
+    margin-left: 5px;
+    background: rgba(241, 245, 254, 1);
+    border-radius: 0px 0px 0px 191.5px;
+  }
+
+  .ovalbackground {
+    height: 145px;
+    width: 146px;
+    margin-left: 700px;
+    margin-top: 100px;
+    border-radius: 0px;
+  }
+
+  .simpletrafficpricingtext {
+    height: 397px;
+    width: 540px;
+    margin-left: 480px;
+    margin-top: 150px;
+    border-radius: 8px;
+    font-family: "Manrope";
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 38px;
+    letter-spacing: 0px;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .singup30daystrialtext {
+    height: 20px;
+    width: 367px;
+    margin-left: 620px;
+    margin-top: -350px;
+    font-family: "Manrope";
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+  .fourthcontainer {
+    height: 440px;
+    width: 640px;
+    margin-left: 500px;
+    margin-top: 60px;
+    border-radius: 8px;
+  }
+  .pagviewstext {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 58px;
+    margin-left: 46px;
+  }
+  .pagviews10ktext {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 58px;
+    margin-left: 46px;
+    display: none;
+  }
+  .pagviews1mtext {
+    font-family: "Manrope";
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 58px;
+    margin-left: 46px;
+    display: none;
+  }
+  #slider {
+    margin-top: 135px;
+    margin-left: 28px;
+    height: 10px;
+    width: 580px;
+  }
+  .number {
+    font-family: "Manrope";
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 55px;
+    letter-spacing: -1px;
+    text-align: right;
+    margin-top: 40px;
+    margin-left: 380px;
+  }
+  .monthtext {
+    width: 100px;
+    font-family: "Manrope";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 58px;
+    margin-left: 510px;
+  }
+  .montlybillingcontaier {
+    margin-left: 150px;
+    width: 400px;
+  }
+  .switch {
+    margin-left: 30px;
+  }
+  .yearlytext {
+    margin-left: 30px;
+  }
+  .percent {
+    margin-left: 300px;
+  }
+  .greyline {
+    width: 640px;
+  }
+  .startmytrialcontainer {
+    margin-top: 320px;
+    margin-left: 400px;
+  }
+}
